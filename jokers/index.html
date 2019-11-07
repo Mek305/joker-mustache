@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Joker Got A Mustache???></title>
+</head>
+
+<body>
+  <h1>{{ title }}</h1>
+  <h3>{{ releaseDate }}</h3>
+  <h3>{{director}}</h3>
+  <img src ="{{posterImg}}" alt=""/>
+  <div class="container">
+    
+    {{#actors}}
+
+    <p>{{name}}</p>
+    <p>{{character}}</p>
+    <img src ="{{img}}" alt=""/>
+    <hr>
+
+    {{/actors}}
+  </div>
+</body>
+
+</html>
